@@ -6,7 +6,7 @@ const bcrypt = require('bcrypt');
 class Server {
     constructor() {
         this.app = express();
-        this.conectarBD();
+        // this.conectarBD();
         this.port = process.env.PORT;
 
         this.middlewares();
